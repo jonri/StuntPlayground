@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="WindowsLook">
+	<Imageset Name="Jumps1" Filename="../../Media/GUI/imagesets/Jumps1.imageset" />
+	<Imageset Name="Props1" Filename="../../Media/GUI/imagesets/Props1.imageset" />
+	<Imageset Name="Props_Pack1" Filename="../../Media/GUI/imagesets/Props_Pack1.imageset" />
+	<Imageset Name="UI" Filename="../../Media/GUI/imagesets/UI.imageset" />
+	<Imageset Name="LOGO" Filename="../../Media/GUI/imagesets/logo.imageset" />
+	<Imageset Name="WindowsLook" Filename="../../Media/GUI/imagesets/WindowsLook.imageset" />
+	
+	<Font Name="Commonwealth-10" Filename="../../Media/GUI/fonts/Commonwealth-10.font" />
+	
+	<WindowSet Filename="CEGUIWindowsLook">
+		<WindowFactory Name="WindowsLook/Button" />
+		<WindowFactory Name="WindowsLook/Checkbox" />
+		<WindowFactory Name="WindowsLook/CloseButton" />
+		<WindowFactory Name="WindowsLook/Combobox" />
+		<WindowFactory Name="WindowsLook/ComboDropList" />
+		<WindowFactory Name="WindowsLook/Editbox" />
+		<WindowFactory Name="WindowsLook/FrameWindow" />
+		<WindowFactory Name="WindowsLook/HorizontalScrollbar" />
+		<WindowFactory Name="WindowsLook/HorizontalScrollbarThumb" />
+		<WindowFactory Name="WindowsLook/Listbox" />
+		<WindowFactory Name="WindowsLook/ListHeader" />
+		<WindowFactory Name="WindowsLook/ListHeaderSegment" />
+		<WindowFactory Name="WindowsLook/MultiColumnList" />
+		<WindowFactory Name="WindowsLook/MultiLineEditbox" />
+		<WindowFactory Name="WindowsLook/ProgressBar" />
+		<WindowFactory Name="WindowsLook/RadioButton" />
+		<WindowFactory Name="WindowsLook/Slider" />
+		<WindowFactory Name="WindowsLook/SliderThumb" />
+		<WindowFactory Name="WindowsLook/StaticImage" />
+		<WindowFactory Name="WindowsLook/StaticText" />
+		<WindowFactory Name="WindowsLook/TabButton" />
+		<WindowFactory Name="WindowsLook/TabControl" />
+		<WindowFactory Name="WindowsLook/TabPane" />
+		<WindowFactory Name="WindowsLook/Titlebar" />
+		<WindowFactory Name="WindowsLook/VerticalScrollbar" />
+		<WindowFactory Name="WindowsLook/VerticalScrollbarThumb" />
+	</WindowSet>
+</GUIScheme>

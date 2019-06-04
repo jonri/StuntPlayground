@@ -1,0 +1,7 @@
+<GameSettings>
+    <shadows setting="off" />
+    <reflections setting="on" />
+    <manualtransmission setting="on" />
+    <soundvolume setting="255" />
+    <restorearena setting="on" />
+</GameSettings>

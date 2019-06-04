@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--Stunt Playground vehicle file-->
+<vehicle name="Bus">
+	<chassis filename="../../Media/vehicles/bus.rb" />
+	<torque_curve>
+		<point rpm="500" torque="300" />
+		<point rpm="3000" torque="600" />
+		<point rpm="4000" torque="800" />
+		<point rpm="6500" torque="1500" />
+		<point rpm="7500" torque="1300" />
+		<point rpm="8000" torque="100" />
+	</torque_curve>
+	<gearbox>
+		<gear ratio="-7.0" />
+		<gear ratio="5.0" />
+		<gear ratio="4.5" />
+		<gear ratio="4.0" />
+		<gear ratio="3.5" />
+		<gear ratio="3.0" />
+		<gear ratio="2.5" />
+		<gear ratio="2.2" />
+		<gear ratio="2.0" />
+	</gearbox>
+	<engine rotating_mass="150" sound="MustangEngine" base_rpm="5000" scale_factor="3"/>
+	<shift delay="0.1" time="0.25" />
+	<differential ratio="2.2" />
+	<transmission efficiency="0.75" />
+	<drag coefficient="0.8" />
+	<brake strength="1800" />
+	<steering angle="0.50" speed="3.0" percent_drop="70" from_speed="10" to_speed="50" />
+	<tire>
+		<visual mesh="../../Media/vehicles/smart_wheel.mesh" />
+		<location orient="0 0 0" pos="2.19 -0.35 -0.78" pin="0 0 1" />
+		<size radius="0.35" height="0.4" mass="30" />
+		<suspension damp="200.0" spring="5000.0" length="0.6" />
+		<settings grip="1" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/smart_wheel.mesh" />
+		<location orient="0 180 0" pos="2.19 -0.35 0.78" pin="0 0 -1" />
+		<size radius="0.35" height="0.4" mass="30" />
+		<suspension damp="200.0" spring="5000.0" length="0.6" />
+		<settings grip="1" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/smart_wheel.mesh" />
+		<location orient="0 0 0" pos="-2.35 -0.35 -0.84" pin="0 0 1" />
+		<size radius="0.35" height="0.23" mass="30" />
+		<suspension damp="200.0" spring="5000.0" length="0.6" />
+		<settings grip="0.4" steer="-1" drive="0" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/smart_wheel.mesh" />
+		<location orient="0 180 0" pos="-2.35 -0.35 0.84" pin="0 0 -1" />
+		<size radius="0.35" height="0.23" mass="30" />
+		<suspension damp="200.0" spring="5000.0" length="0.6" />
+		<settings grip="0.4" steer="-1" drive="0" />
+	</tire>
+</vehicle>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<props>
+	<prop name="Simple Jump 1" bodfile="../../Media/props/simple_jump1.rb" imageset="Jumps1" image="Simple_Jump1" sound="HardHit" />
+	<prop name="Small Jump 1" bodfile="../../Media/props/small_jump1.rb" imageset="Jumps1" image="Small_Jump1" sound="HardHit" />
+	<prop name="Kicker 1" bodfile="../../Media/props/kicker1.rb" imageset="Jumps1" image="Kicker1" sound="HardHit" />
+	<prop name="Super Jump 1" bodfile="../../Media/props/super_jump1.rb" imageset="Jumps1" image="Super_Jump1" sound="HardHit" />
+	<prop name="Quarter Pipe" bodfile="../../Media/props/quarterpipe.rb" imageset="Jumps1" image="Quarterpipe" sound="WoodOnMetal" />
+
+	<prop name="Concrete Bump" bodfile="../../Media/props/concrete.rb" imageset="Props1" image="Concrete" sound="WoodHit1" />
+	<prop name="Concrete Tube" bodfile="../../Media/props/concrete_tube.rb" imageset="Props1" image="Concrete_Tube" sound="HardHit" />
+	<prop name="Garage Stand" bodfile="../../Media/props/garage_stand.rb" imageset="Props1" image="Garage_Stand" sound="HardHit" />
+	<prop name="Ring" bodfile="../../Media/props/ring.rb" imageset="Props1" image="Ring" sound="WoodHit1" />
+	<prop name="Barrel" bodfile="../../Media/props/barrel.rb" imageset="Props1" image="Barrel" sound="MetalHit1" />
+	<prop name="Crate" bodfile="../../Media/props/crate.rb" imageset="Props1" image="Crate" sound="WoodHit2" />
+	<prop name="Cone" bodfile="../../Media/props/cone.rb" imageset="Props1" image="Cone" sound="WoodHit1" />
+	<prop name="Plywood" bodfile="../../Media/props/plywood.rb" imageset="Props1" image="Plywood" sound="WoodHit1" />
+	<prop name="2x4" bodfile="../../Media/props/2x4.rb" imageset="Props1" image="2x4" sound="WoodHit1" />
+	<prop name="Dumpster" bodfile="../../Media/props/dumpster.rb" imageset="Props1" image="Dumpster" sound="MetalHit1" />
+	<prop name="Junk Car" bodfile="../../Media/props/simple_car.rb" imageset="Props1" image="Junk Car" sound="MetalHit1" />
+	<prop name="Big Box" bodfile="../../Media/props/bigbox.rb" imageset="Props1" image="Big Box" sound="HardHit" />
+
+	<prop name="Indicator" bodfile="../../Media/props/indicator.rb" imageset="Props_Pack1" image="Indicator" sound="WoodOnMetal" />
+	<prop name="Stop Sign" bodfile="../../Media/props/stop_sign.rb" imageset="Props_Pack1" image="stop_sign" sound="WoodOnMetal" />
+	<prop name="Loop" bodfile="../../Media/props/loop.rb" imageset="Props_Pack1" image="loop" sound="WoodOnMetal" />
+	<prop name="Tunnel Jump" bodfile="../../Media/props/tunnel_jump.rb" imageset="Props_Pack1" image="tunnel_jump" sound="WoodOnMetal" />
+
+</props>
+

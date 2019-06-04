@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--Stunt Playground vehicle file-->
+<vehicle name="Mustang">
+	<chassis filename="../../Media/vehicles/mustang.rb">
+		<CenterOfMass offset="0.0 -0.14 0.0" />
+	</chassis>
+	<torque_curve>
+		<point rpm="500" torque="100" />
+		<point rpm="3500" torque="380" />
+		<point rpm="5500" torque="800" />
+		<point rpm="6500" torque="900" />
+		<point rpm="7500" torque="850" />
+		<point rpm="9000" torque="0" />
+	</torque_curve>
+	<gearbox>
+		<gear ratio="-5.0" />
+		<gear ratio="3.2" />
+		<gear ratio="2.25" />
+		<gear ratio="1.85" />
+		<gear ratio="1.25" />
+		<gear ratio="0.82" />
+	</gearbox>
+	<engine rotating_mass="270" sound="MustangEngine" base_rpm="5000" scale_factor="6"/>
+	<shift delay="0.1" time="0.22" />
+	<differential ratio="2.1" />
+	<transmission efficiency="0.75" />
+	<drag coefficient="0.8" />
+	<brake strength="3000" />
+	<steering angle="0.70" speed="4.0" percent_drop="65" from_speed="10" to_speed="60" />
+	<tire>
+		<visual mesh="../../Media/vehicles/mustang_wheel.mesh" />
+		<location orient="0 0 0" pos="0.97 -0.28 0.63" pin="0 0 1" />
+		<size radius="0.2955" height="0.27" mass="14" />
+		<suspension damp="60.0" spring="250.0" length="0.35" />
+		<settings grip="0.8" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/mustang_wheel.mesh" />
+		<location orient="0 180 0" pos="0.97 -0.28 -0.63" pin="0 0 -1" />
+		<size radius="0.2955" height="0.27" mass="14" />
+		<suspension damp="60.0" spring="250.0" length="0.35" />
+		<settings grip="0.8" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/mustang_wheel.mesh" />
+		<location orient="0 0 0" pos="-1.49 -0.28 0.63" pin="0 0 1" />
+		<size radius="0.2907" height="0.23" mass="10" />
+		<suspension damp="80.0" spring="210.0" length="0.35" />
+		<settings grip="1" steer="-1" drive="0" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/mustang_wheel.mesh" />
+		<location orient="0 180 0" pos="-1.49 -0.28 -0.63" pin="0 0 -1" />
+		<size radius="0.2907" height="0.23" mass="10" />
+		<suspension damp="80.0" spring="210.0" length="0.35" />
+		<settings grip="1" steer="-1" drive="0" />
+	</tire>
+</vehicle>

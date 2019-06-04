@@ -1,0 +1,15 @@
+Changes in Stunt Playground v2.0
+
+* 4 new vehicles -> Mini, Tokyo Bus, Pantera, Monster Truck
+* 4 new props -> Loop, Tunnel Jump, Stop Sign, Indicator
+* improved vehicle reflections, now using realtime cubemapping for very improved realism!
+* removal of DirectX 7.0 support, now only uses DirectX 9.0 and OpenGL
+* update to the internal physics engine, improving vehicle behavior
+* some basic interface changes - addition of "reset scores" option.
+* new game logo reflecting version number
+* new config screen pic
+* small bug fixes
+* improvements to camera class prevents crazy camera movements after pauses from loading / etc.
+
+
+

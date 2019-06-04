@@ -1,0 +1,274 @@
+material MINI_WIN/SOLID/TEX/mini.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.919411 0.916704 0.916704
+			specular 1.000000 1.000000 1.000000 12.500000
+			texture_unit
+			{
+				texture mini.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.4 0.6
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+material MINI_MAIN/SOLID/TEX/mini.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture mini.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.8 0.2
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+material MINI_DARK/SOLID/TEX/mini.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.254351 0.254351 0.254351
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture mini.png
+			}
+		}
+	}
+}
+
+
+
+material MINI_TIRE
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.00000 0.00000 0.00000 1.000000
+			diffuse 0.1 0.1 0.1 1.000000
+			specular 0.2 0.2 0.2 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+
+material MINI_WHEEL
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			diffuse 0.800000 0.800000 0.800000 1.000000
+			specular 0.721561 0.721561 0.721561 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.8 0.2
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+
+material BUS_MAIN/SOLID/TEX/bus_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.800000 0.800000 0.800000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture bus_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.85 0.15
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+
+material PANTERA_WIN/SOLID/TEX/pantera_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 1.000000 1.000000 1.000000 35.500000
+			texture_unit
+			{
+				texture pantera_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.85 0.15
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+material PANTERA_MAIN/SOLID/TEX/pantera_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 1.000000 1.000000 1.000000 35.500000
+			texture_unit
+			{
+				texture pantera_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.85 0.15
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+material PANTERA_BOTTOM/SOLID/TEX/pantera_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 0.356028 0.356028 0.356028 12.500000
+			texture_unit
+			{
+				texture pantera_tex.png
+			}
+		}
+	}
+}
+
+material BIGTRUCK_WIN/SOLID/TEX/bigtruck_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 1.000000 1.000000 1.000000 12.500000
+			texture_unit
+			{
+				texture bigtruck_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.5 0.5
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+material BIGTRUCK_BASE/SOLID/TEX/bigtruck_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture bigtruck_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.85 0.15
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+material BIGTRUCK_BOT/SOLID/TEX/bigtruck_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture bigtruck_tex.png
+			}
+		}
+	}
+}
+material monster_wheel/SOLID/TEX/monster_wheel_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 1.000000 1.000000 1.000000 12.500000
+			texture_unit
+			{
+				texture monster_wheel_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.85 0.15
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+material monster_tire/SOLID/TEX/monster_wheel_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture monster_wheel_tex.png
+			}
+		}
+	}
+}
+
+
+
+

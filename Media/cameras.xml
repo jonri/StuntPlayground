@@ -1,0 +1,11 @@
+<Cameras>
+	<Angle name="FOLLOW" yaw="90" pitch="15" dist="8" lookoff="0 1 0" />
+	<Angle name="FRONT" yaw="270" pitch="10" dist="8" lookoff="0 0.5 0" />
+	<Angle name="LDOOR" yaw="45" pitch="5" dist="2.4" lookoff="-5 0 1" />
+	<Angle name="RDOOR" yaw="135" pitch="5" dist="2.4" lookoff="-5 0 1" />
+	<Angle name="LSIDE" yaw="0" pitch="15" dist="9" lookoff="-2 1 0" />
+	<Angle name="RSIDE" yaw="180" pitch="15" dist="9" lookoff="-2 1 0" />
+	<Angle name="WIDE_FOLLOW" yaw="90" pitch="25" dist="20" lookoff="0 3 0" />
+	<Angle name="WIDE_LSIDE" yaw="0" pitch="25" dist="20" lookoff="-2 3 0" />
+	<Angle name="WIDE_RSIDE" yaw="180" pitch="25" dist="20" lookoff="-2 3 0" />
+</Cameras>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<Imageset Name="Props1" Imagefile="../../GUI/imagesets/props1.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true">
+	<Image Name="Concrete" XPos="0" YPos="0" Width="160" Height="128" />
+	<Image Name="Concrete_Tube" XPos="160" YPos="0" Width="160" Height="128" />
+	<Image Name="Garage_Stand" XPos="320" YPos="0" Width="160" Height="128" />
+	<Image Name="Ring" XPos="0" YPos="128" Width="160" Height="128" />
+	<Image Name="Barrel" XPos="160" YPos="128" Width="160" Height="128" />
+	<Image Name="Crate" XPos="320" YPos="128" Width="160" Height="128" />
+	<Image Name="Cone" XPos="0" YPos="256" Width="160" Height="128" />
+	<Image Name="Plywood" XPos="160" YPos="256" Width="160" Height="128" />
+	<Image Name="2x4" XPos="320" YPos="256" Width="160" Height="128" />
+	<Image Name="Dumpster" XPos="0" YPos="384" Width="160" Height="128" />
+	<Image Name="Junk Car" XPos="160" YPos="384" Width="160" Height="128" />
+	<Image Name="Big Box" XPos="320" YPos="384" Width="160" Height="128" />
+
+</Imageset>

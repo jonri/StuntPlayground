@@ -1,0 +1,458 @@
+material SMART_Grey/SOLID/TEX/smart_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1 1 1
+			specular 0.815368 0.815368 0.815368 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture smart_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op modulate
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+material SMART_Red/SOLID/TEX/smart_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1 1 1
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture smart_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op modulate
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+material SMART_Win/SOLID/TEX/smart_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 0.2 0.2 0.2
+			specular 1.000000 1.000000 1.000000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture smart_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.8 0.2
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+material SMART_Dark/SOLID/TEX/smart_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 0.147356 0.147356 0.147356
+			specular 0.270642 0.270642 0.270642 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture smart_tex.png
+			}
+		}
+	}
+}
+
+
+material SMART_RIM/SOLID/
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 0.916978 0.902248 0.902248
+			specular 1.000000 1.000000 1.000000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op modulate
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+material SMART_TIRE/SOLID/
+{
+  	technique
+  	{
+    		pass
+    		{
+      			ambient 0.000000 0.000000 0.000000
+      			diffuse 0.044112 0.044112 0.044112
+      			specular 0.271098 0.271098 0.271098 50.000000
+      			emissive 0.000000 0.000000 0.000000
+    		}
+  	}
+}
+
+
+material MUSTANG_MAIN/SOLID/TEX/mustang_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.786698 0.786698 0.786698 12.500000
+			texture_unit
+			{
+				texture mustang_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection 
+				colour_op_ex blend_manual src_current src_texture 0.6 0.4
+				cubic_texture TrackCube.png combinedUVW
+			}
+
+		}
+	}
+}
+
+
+material MUSTANG_BOTTOM/SOLID/TEX/mustang_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.289311 0.289311 0.289311 12.500000
+			texture_unit
+			{
+				texture mustang_tex.png
+			}
+		}
+	}
+}
+
+
+material MUSTANG_WINDOW/SOLID/TEX/mustang_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.420000 0.420000 0.420000
+			specular 1.000000 1.000000 1.000000 12.500000
+			texture_unit
+			{
+				texture mustang_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.8 0.2
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+material MTIRE_WHEEL/SOLID/
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 0.814726 0.797275 0.797275
+			specular 1.000000 1.000000 1.000000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.6 0.4
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+material MTIRE_TIRE/SOLID/
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 0.217403 0.217403 0.217403
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+
+		}
+	}
+}
+
+
+material GT_BOTTOM/SOLID/gt_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.413990 0.413990 0.413990 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture gt_tex.png
+			}
+		}
+	}
+}
+
+material GT_MAIN/SOLID/gt_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture gt_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.6 0.4
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+material GT_TIRE
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.00000 0.00000 0.00000 1.000000
+			diffuse 0.1 0.1 0.1 1.000000
+			specular 0.2 0.2 0.2 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+
+material GT_RIM
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.669240 0.669240 0.669240 1.000000
+			specular 1.000000 1.000000 1.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.6 0.4
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+
+material MAIN/SOLID/cabrio_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.623850 0.623850 0.623850 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture cabrio_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op_ex blend_manual src_current src_texture 0.8 0.2
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+material DARK/SOLID/cabrio_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 0.240951 0.240951 0.240951
+			specular 0.327981 0.327981 0.327981 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture cabrio_tex.png
+			}
+		}
+	}
+}
+
+material CANOPY/SOLID/cabrio_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 0.7 0.7 0.7
+			specular 0.327981 0.327981 0.327981 14.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture cabrio_tex.png
+			}
+		}
+	}
+}
+
+material WINDOWS/SOLID/cabrio_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 0.240951 0.240951 0.240951
+			specular 1.000000 1.000000 1.000000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture cabrio_tex.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op modulate
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}
+
+
+material CABRIO_WHEEL/SOLID/
+{
+  	receive_shadows on
+  	technique
+  	{
+   		pass
+    		{
+      			ambient 0.000000 0.000000 0.000000
+      			diffuse 0.800000 0.800000 0.800000
+      			specular 0.500000 0.500000 0.500000 50.000000
+      			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op modulate
+				cubic_texture TrackCube.png combinedUVW
+			}
+    		}
+
+  	}
+}
+
+material CABRIO_TIRE/SOLID/
+{
+  	receive_shadows on
+  	technique
+  	{
+    		pass
+    		{
+      			ambient 0.000000 0.000000 0.000000
+      			diffuse 0.100791 0.100791 0.100791
+      			specular 0.328323 0.328323 0.328323 50.000000
+      			emissive 0.000000 0.000000 0.000000
+    		}
+  	}
+}
+
+
+material VEHICLE_DEBUG
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.815368 0.815368 0.815368 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+

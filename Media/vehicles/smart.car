@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--Stunt Playground vehicle file-->
+<vehicle name="Smart">
+	<chassis filename="../../Media/vehicles/smart.rb">
+		<CenterOfMass offset="0.0 -0.1 0.0" />
+	</chassis>
+	<torque_curve>
+		<point rpm="500" torque="50" />
+		<point rpm="3000" torque="250" />
+		<point rpm="4000" torque="400" />
+		<point rpm="4500" torque="550" />
+		<point rpm="5500" torque="550" />
+		<point rpm="7000" torque="0" />
+	</torque_curve>
+	<gearbox>
+		<gear ratio="-4.0" />
+		<gear ratio="3.1" />
+		<gear ratio="2.25" />
+		<gear ratio="1.4" />
+		<gear ratio="0.8" />
+	</gearbox>
+	<engine rotating_mass="150" sound="MustangEngine" base_rpm="5000" scale_factor="3"/>
+	<shift delay="0.08" time="0.25" />
+	<differential ratio="2.2" />
+	<transmission efficiency="0.75" />
+	<drag coefficient="0.8" />
+	<brake strength="900" />
+	<steering angle="0.50" speed="3.0" percent_drop="70" from_speed="10" to_speed="50" />
+	<tire>
+		<visual mesh="../../Media/vehicles/smart_wheel.mesh" />
+		<location orient="0 0 0" pos="0.85 -0.21 -0.6" pin="0 0 1" />
+		<size radius="0.297" height="0.175" mass="10" />
+		<suspension damp="20.0" spring="230.0" length="0.22" />
+		<settings grip="1" steer="0" drive="0" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/smart_wheel.mesh" />
+		<location orient="0 180 0" pos="0.85 -0.21 0.6" pin="0 0 -1" />
+		<size radius="0.297" height="0.205" mass="10" />
+		<suspension damp="20.0" spring="230.0" length="0.22" />
+		<settings grip="1" steer="0" drive="0" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/smart_wheel.mesh" />
+		<location orient="0 0 0" pos="-0.9 -0.21 -0.6" pin="0 0 1" />
+		<size radius="0.2955" height="0.175" mass="10" />
+		<suspension damp="20.0" spring="230.0" length="0.22" />
+		<settings grip="0.4" steer="-1" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/smart_wheel.mesh" />
+		<location orient="0 180 0" pos="-0.9 -0.21 0.6" pin="0 0 -1" />
+		<size radius="0.2955" height="0.205" mass="10" />
+		<suspension damp="20.0" spring="230.0" length="0.22" />
+		<settings grip="0.4" steer="-1" drive="1" />
+	</tire>
+</vehicle>

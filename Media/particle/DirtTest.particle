@@ -1,0 +1,53 @@
+
+WalaberDirtTest
+{
+	quota	220
+	material	Test/Dirt
+	particle_width	1.5
+	particle_height	1.5
+	cull_each	true
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	0
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 0
+		direction	0 1 0
+		emission_rate	10
+		position	0 0.2 0
+		velocity_min	0.0
+		velocity_max	0.4
+		time_to_live_min	5
+		time_to_live_max	7
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	2
+		height	2
+		depth	1
+	}
+
+	affector Scaler
+	{
+		rate	0.6
+	}
+
+	affector ColourFader2
+	{
+		red1	0
+		green1	0
+		blue1	0
+		alpha1	0
+		red2	0
+		green2	0
+		blue2	0
+		alpha2	-1
+		state_change	1
+	}
+}

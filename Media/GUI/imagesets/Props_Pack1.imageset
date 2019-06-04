@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Imageset Name="Props_Pack1" Imagefile="../../GUI/imagesets/props_pack1.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true">
+	<Image Name="Indicator" XPos="0" YPos="0" Width="160" Height="128" />
+	<Image Name="stop_sign" XPos="160" YPos="0" Width="160" Height="128" />
+	<Image Name="loop" XPos="320" YPos="0" Width="160" Height="128" />
+	<Image Name="tunnel_jump" XPos="0" YPos="128" Width="160" Height="128" />
+
+</Imageset>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--Stunt Playground vehicle file-->
+<vehicle name="GT">
+	<chassis filename="../../Media/vehicles/gt.rb" />
+	<torque_curve>
+		<point rpm="500" torque="400" />
+		<point rpm="5000" torque="1100" />
+		<point rpm="5500" torque="1300" />
+		<point rpm="6500" torque="1800" />
+		<point rpm="7500" torque="1600" />
+		<point rpm="9000" torque="0" />
+	</torque_curve>
+	<gearbox>
+		<gear ratio="-4.25" />
+		<gear ratio="3.2" />
+		<gear ratio="2.24" />
+		<gear ratio="1.57" />
+		<gear ratio="1.23" />
+		<gear ratio="1.065" />
+	</gearbox>
+	<engine rotating_mass="250" sound="RaceEngine" base_rpm="1500" scale_factor="4"/>
+	<shift delay="0.1" time="0.11" />
+	<differential ratio="2.1" />
+	<transmission efficiency="0.75" />
+	<drag coefficient="0.8" />
+	<brake strength="3000" />
+	<steering angle="0.75" speed="4.0" percent_drop="75" from_speed="18" to_speed="70" />
+	<tire>
+		<visual mesh="../../Media/vehicles/gt_wheel.mesh" />
+		<location orient="0 0 0" pos="0.99 -0.1 0.85" pin="0 0 1" />
+		<size radius="0.372" height="0.315" mass="10" />
+		<suspension damp="60.0" spring="700.0" length="0.25" />
+		<settings grip="2" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/gt_wheel.mesh" />
+		<location orient="0 180 0" pos="0.99 -0.1 -0.85" pin="0 0 -1" />
+		<size radius="0.372" height="0.315" mass="10" />
+		<suspension damp="60.0" spring="700.0" length="0.25" />
+		<settings grip="2" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/gt_wheel.mesh" />
+		<location orient="0 0 0" pos="-1.88 -0.1 0.85" pin="0 0 1" />
+		<size radius="0.334" height="0.235" mass="10" />
+		<suspension damp="60.0" spring="700.0" length="0.25" />
+		<settings grip="2" steer="-1" drive="0" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/gt_wheel.mesh" />
+		<location orient="0 180 0" pos="-1.88 -0.1 -0.85" pin="0 0 -1" />
+		<size radius="0.334" height="0.235" mass="10" />
+		<suspension damp="60.0" spring="700.0" length="0.25" />
+		<settings grip="2" steer="-1" drive="0" />
+	</tire>
+</vehicle>

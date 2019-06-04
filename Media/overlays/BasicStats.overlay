@@ -1,0 +1,260 @@
+// Standard Debugger overlay...
+StuntPlayground/BasicInfo
+{
+	zorder 600
+	
+	container TextArea(GEAR_label)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		left 5
+		top -99
+		width 50
+		height 20
+		font_name Vrinda
+		char_height 20
+		colour_top 0.37 0.96 0.4
+		colour_bottom 0.09 0.63 0.08
+		caption GEAR
+	}
+
+	container TextArea(GEAR)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		left 10
+		top -75
+		width 50
+		height 50
+		font_name Vrinda
+		char_height 50
+		colour_top 0.37 0.96 0.4
+		colour_bottom 0.09 0.63 0.08
+	}
+
+	container TextArea(SPEED)
+	{
+		metrics_mode pixels
+		horz_align right
+		vert_align bottom
+		left -75
+		top -75
+		width 100
+		height 65
+		font_name Vrinda
+		char_height 65
+		colour_top 0.37 0.96 0.4
+		colour_bottom 0.09 0.63 0.08
+	}
+
+	container TextArea(SPEED_label)
+	{
+		metrics_mode pixels
+		horz_align right
+		vert_align bottom
+		left -140
+		top -99
+		width 50
+		height 20
+		font_name Vrinda
+		char_height 20
+		colour_top 0.37 0.96 0.4
+		colour_bottom 0.09 0.63 0.08
+		caption SPEED (KM/H)
+	}
+
+	container TextArea(MESSAGE2)
+	{
+		metrics_mode pixels
+		horz_align center
+		vert_align bottom
+		left -300
+		top -300
+		width 600
+		height 60
+		font_name Vrinda
+		char_height 60
+		colour_top 0.99 1.0 0.35
+		colour_bottom 0.97 0.46 0.04
+		caption DRIVE!
+	}
+
+	container Panel(CAMERA)
+	{
+		metrics_mode pixels
+		left 3
+		top 3
+		width 48
+		height 48
+		material GUI/CAMERA
+	}
+
+	container Panel(REC)
+	{
+		metrics_mode pixels
+		left 55
+		top 3
+		width 48
+		height 48
+		material GUI/REC
+	}
+
+	container Panel(JP_DIST)
+	{
+		metrics_mode pixels
+		left 3
+		top 55
+		width 96
+		height 24
+		material GUI/JP_DIST
+	}
+
+	container TextArea(JP_DISTt)
+	{
+		metrics_mode pixels
+		left 102
+		top 55
+		width 128
+		height 24
+		font_name Vrinda
+		char_height 20
+		colour 1 1 1
+		caption NO RECORD
+	}
+
+	container Panel(JP_TIME)
+	{
+		metrics_mode pixels
+		left 3
+		top 82
+		width 96
+		height 24
+		material GUI/JP_TIME
+	}
+
+	container TextArea(JP_TIMEt)
+	{
+		metrics_mode pixels
+		left 102
+		top 82
+		width 128
+		height 24
+		font_name Vrinda
+		char_height 20
+		colour 1 1 1
+		caption TEST
+	}
+
+	container Panel(JP_FLIPS)
+	{
+		metrics_mode pixels
+		left 3
+		top 110
+		width 96
+		height 24
+		material GUI/JP_FLIPS
+	}
+
+	container TextArea(JP_FLIPSt)
+	{
+		metrics_mode pixels
+		left 102
+		top 110
+		width 128
+		height 24
+		font_name Vrinda
+		char_height 20
+		colour 1 1 1
+		caption TEST
+	}
+
+	container Panel(JP_2WH)
+	{
+		metrics_mode pixels
+		left 3
+		top 138
+		width 96
+		height 24
+		material GUI/JP_2WH
+	}
+
+	container TextArea(JP_2WHt)
+	{
+		metrics_mode pixels
+		left 102
+		top 138
+		width 96
+		height 24
+		font_name Vrinda
+		char_height 20
+		colour 1 1 1
+		caption TEST
+	}
+
+	container TextArea(OldMessage1)
+	{
+		metrics_mode pixels
+		horz_align right
+		left -275
+		top 5
+		width 50
+		height 16
+		font_name Vrinda
+		char_height 18
+		colour 0.97 0.57 0.04
+	}
+
+	container TextArea(OldMessage2)
+	{
+		metrics_mode pixels
+		horz_align right
+		left -275
+		top 23
+		width 50
+		height 16
+		font_name Vrinda
+		char_height 18
+		colour 0.97 0.57 0.04
+	}
+
+	container TextArea(OldMessage3)
+	{
+		metrics_mode pixels
+		horz_align right
+		left -275
+		top 41
+		width 50
+		height 16
+		font_name Vrinda
+		char_height 18
+		colour 0.97 0.57 0.04
+	}
+
+	container TextArea(OldMessage4)
+	{
+		metrics_mode pixels
+		horz_align right
+		left -275
+		top 59
+		width 50
+		height 16
+		font_name Vrinda
+		char_height 18
+		colour 0.97 0.57 0.04
+	}
+
+
+	container TextArea(OldMessage5)
+	{
+		metrics_mode pixels
+		horz_align right
+		left -275
+		top 77
+		width 50
+		height 116
+		font_name Vrinda
+		char_height 18
+		colour 0.97 0.57 0.04
+	}
+
+}

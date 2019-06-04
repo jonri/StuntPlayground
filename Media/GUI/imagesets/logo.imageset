@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<Imageset Name="LOGO" Imagefile="../../GUI/imagesets/logo.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true">
+	<Image Name="Logo" XPos="0" YPos="0" Width="512" Height="512" />
+</Imageset>

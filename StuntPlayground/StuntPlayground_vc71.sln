@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StuntPlayground", "StuntPlayground_vc71.vcproj", "{8730FB7B-193A-4F8C-A4E9-3866B06683CA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8730FB7B-193A-4F8C-A4E9-3866B06683CA}.Debug.ActiveCfg = Debug|Win32
+		{8730FB7B-193A-4F8C-A4E9-3866B06683CA}.Debug.Build.0 = Debug|Win32
+		{8730FB7B-193A-4F8C-A4E9-3866B06683CA}.Release.ActiveCfg = Release|Win32
+		{8730FB7B-193A-4F8C-A4E9-3866B06683CA}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

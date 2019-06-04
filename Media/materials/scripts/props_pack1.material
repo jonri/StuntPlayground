@@ -1,0 +1,67 @@
+material INDICATOR/SOLID/TEX/indicator.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture indicator.png
+			}
+		}
+	}
+}
+
+
+material LOOP/SOLID/TEX/concrete.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+
+material tunnel_jump/SOLID/TEX/tunnel_jump.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture tunnel_jump.png
+			}
+		}
+	}
+}
+
+
+
+material STOP_SIGN/SOLID/TEX/stop_sign_tex.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.728917 0.728917 0.728917 35.500000
+			texture_unit
+			{
+				texture stop_sign_tex.png
+			}
+		}
+	}
+}

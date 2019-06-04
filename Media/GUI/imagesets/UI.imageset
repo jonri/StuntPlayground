@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Imageset Name="UI" Imagefile="../../GUI/imagesets/UI.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true">
+	<Image Name="Logo" XPos="0" YPos="0" Width="256" Height="64" />
+	<Image Name="IR_Top" XPos="0" YPos="72" Width="24" Height="24" />
+	<Image Name="IR_RW" XPos="24" YPos="72" Width="24" Height="24" />
+	<Image Name="IR_RP" XPos="48" YPos="72" Width="24" Height="24" />
+	<Image Name="IR_RS" XPos="72" YPos="72" Width="24" Height="24" />
+	<Image Name="IR_PS" XPos="96" YPos="72" Width="24" Height="24" />
+	<Image Name="IR_FS" XPos="120" YPos="72" Width="24" Height="24" />
+	<Image Name="IR_FP" XPos="144" YPos="72" Width="24" Height="24" />
+	<Image Name="IR_FF" XPos="168" YPos="72" Width="24" Height="24" />
+	<Image Name="IR_End" XPos="192" YPos="72" Width="24" Height="24" />
+
+	<Image Name="Camera" XPos="0" YPos="96" Width="48" Height="48" />
+	<Image Name="REC" XPos="48" YPos="96" Width="48" Height="48" />
+	<Image Name="JP_DIST" XPos="0" YPos="144" Width="84" Height="24" />
+	<Image Name="JP_TIME" XPos="0" YPos="168" Width="84" Height="24" />
+	<Image Name="JP_FLIPS" XPos="0" YPos="192" Width="84" Height="24" />
+	<Image Name="JP_2WH" XPos="0" YPos="216" Width="84" Height="24" />	
+	
+</Imageset>

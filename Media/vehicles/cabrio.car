@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--Stunt Playground vehicle file-->
+<vehicle name="Cabrio">
+	<chassis filename="../../Media/vehicles/cabrio.rb">
+		<CenterOfMass offset="0.0 -0.28 0.0" />
+	</chassis>
+	<torque_curve>
+		<point rpm="500" torque="100" />
+		<point rpm="2000" torque="300" />
+		<point rpm="4500" torque="600" />
+		<point rpm="5500" torque="650" />
+		<point rpm="6000" torque="600" />
+		<point rpm="7500" torque="0" />
+	</torque_curve>
+	<gearbox>
+		<gear ratio="-4.0" />
+		<gear ratio="4.6" />
+		<gear ratio="2.8" />
+		<gear ratio="1.9" />
+		<gear ratio="1.43" />
+	</gearbox>
+	<engine rotating_mass="300" sound="CabrioEngine" base_rpm="2000" scale_factor="5"/>
+	<shift delay="0.1" time="0.21" />
+	<differential ratio="2.5" />
+	<transmission efficiency="0.75" />
+	<drag coefficient="0.8" />
+	<brake strength="1500" />
+	<steering angle="0.60" speed="4.0" percent_drop="80" from_speed="10" to_speed="45" />
+	<tire>
+		<visual mesh="../../Media/vehicles/cabrio_wheel.mesh" />
+		<location orient="0 0 0" pos="0.9 -0.4 0.7" pin="0 0 1" />
+		<size radius="0.43" height="0.3" mass="12" />
+		<suspension damp="20.0" spring="390.0" length="0.65" />
+		<settings grip="0.4" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/cabrio_wheel.mesh" />
+		<location orient="0 180 0" pos="0.9 -0.4 -0.7" pin="0 0 -1" />
+		<size radius="0.43" height="0.3" mass="12" />
+		<suspension damp="20.0" spring="390.0" length="0.65" />
+		<settings grip="0.4" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/cabrio_wheel.mesh" />
+		<location orient="0 0 0" pos="-1.4 -0.4 0.7" pin="0 0 1" />
+		<size radius="0.43" height="0.3" mass="12" />
+		<suspension damp="20.0" spring="340.0" length="0.65" />
+		<settings grip="0.4" steer="-1" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/cabrio_wheel.mesh" />
+		<location orient="0 180 0" pos="-1.4 -0.4 -0.7" pin="0 0 -1" />
+		<size radius="0.43" height="0.3" mass="12" />
+		<suspension damp="20.0" spring="340.0" length="0.65" />
+		<settings grip="0.4" steer="-1" drive="1" />
+	</tire>
+</vehicle>

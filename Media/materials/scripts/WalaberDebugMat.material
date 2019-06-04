@@ -1,0 +1,121 @@
+material Walaber/DebugPanel
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5
+			diffuse 0.3 0.3 0.3 0.8
+		}
+	}
+}
+
+material DEBUG/PANEL1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+material DEBUG/PANEL2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+material DEBUG/PANEL3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+material DEBUG/PANEL4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+material DEBUG/PANEL5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+material DEBUG/PANEL6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+
+material CarDebugTest
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1 1 1
+			specular 0.815368 0.815368 0.815368 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture concrete.png
+			}
+			texture_unit
+			{
+				env_map cubic_reflection
+				colour_op modulate
+				cubic_texture TrackCube.png combinedUVW
+			}
+		}
+	}
+}

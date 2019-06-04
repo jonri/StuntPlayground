@@ -1,0 +1,149 @@
+material TRACK_BASE/SOLID/road.psd
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture road.png
+			}
+		}
+	}
+}
+
+material TRACK_BASE/SOLID/redwhite.psd
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture redwhite.png
+			}
+		}
+	}
+}
+
+material TRACK_BASE/SOLID/
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+		}
+	}
+}
+
+material TRACK_BASE/SOLID/fence.psd
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture fence.png
+			}
+		}
+	}
+}
+
+material TRACK_BASE/SOLID/roaddirt.psd
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture roaddirt.png
+			}
+		}
+	}
+}
+
+material TRACK_BASE/SOLID/ground.psd
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture ground.png
+			}
+		}
+	}
+}
+
+material TRACK_BASE/SOLID/road_checker.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture road_checker.png
+			}
+		}
+	}
+}
+
+material TRACK_BASE/SOLID/billboards.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture billboards.png
+			}
+		}
+	}
+}
+

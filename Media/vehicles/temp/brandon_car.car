@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--Stunt Playground vehicle file-->
+<vehicle name="Brandon Car">
+	<chassis filename="../../Media/vehicles/brandon_car.rb" />
+	<torque_curve>
+		<point rpm="500" torque="100" />
+		<point rpm="3500" torque="480" />
+		<point rpm="5500" torque="900" />
+		<point rpm="6500" torque="1100" />
+		<point rpm="7500" torque="1400" />
+		<point rpm="9500" torque="0" />
+	</torque_curve>
+	<gearbox>
+		<gear ratio="-5.0" />
+		<gear ratio="4.0" />
+		<gear ratio="2.25" />
+		<gear ratio="1.85" />
+		<gear ratio="1.25" />
+		<gear ratio="0.82" />
+	</gearbox>
+	<engine rotating_mass="270" sound="MustangEngine" base_rpm="5000" scale_factor="6"/>
+	<shift delay="0.06" time="0.22" />
+	<differential ratio="2.1" />
+	<transmission efficiency="0.75" />
+	<drag coefficient="0.8" />
+	<brake strength="3000" />
+	<steering angle="0.70" speed="4.0" percent_drop="65" from_speed="10" to_speed="60" />
+	<tire>
+		<visual mesh="../../Media/vehicles/brandon_car_tire.mesh" />
+		<location orient="0 0 0" pos="1.47 0.46 0.95" pin="0 0 1" />
+		<size radius="0.33" height="0.38" mass="14" />
+		<suspension damp="1.1" spring="6.0" length="0.75" />
+		<settings grip="2" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/brandon_car_tire.mesh" />
+		<location orient="0 180 0" pos="1.47 0.46 -0.95" pin="0 0 -1" />
+		<size radius="0.33" height="0.38" mass="14" />
+		<suspension damp="1.1" spring="6.0" length="0.75" />
+		<settings grip="2" steer="0" drive="1" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/brandon_car_tire.mesh" />
+		<location orient="0 0 0" pos="-1.39 0.50 0.88" pin="0 0 1" />
+		<size radius="0.31" height="0.23" mass="10" />
+		<suspension damp="1.1" spring="6.0" length="0.75" />
+		<settings grip="5" steer="-1" drive="0" />
+	</tire>
+	<tire>
+		<visual mesh="../../Media/vehicles/brandon_car_tire.mesh" />
+		<location orient="0 180 0" pos="-1.39 0.50 -0.88" pin="0 0 -1" />
+		<size radius="0.31" height="0.23" mass="10" />
+		<suspension damp="1.1" spring="6.0" length="0.75" />
+		<settings grip="5" steer="-1" drive="0" />
+	</tire>
+</vehicle>

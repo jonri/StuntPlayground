@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Imageset Name="Jumps1" Imagefile="../../GUI/imagesets/jumps1.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true">
+	<Image Name="Simple_Jump1" XPos="0" YPos="0" Width="160" Height="128" />
+	<Image Name="Small_Jump1" XPos="160" YPos="0" Width="160" Height="128" />
+	<Image Name="Kicker1" XPos="320" YPos="0" Width="160" Height="128" />
+	<Image Name="Kicker2" XPos="0" YPos="128" Width="160" Height="128" />
+	<Image Name="Super_Jump1" XPos="160" YPos="128" Width="160" Height="128" />
+	<Image Name="Quarterpipe" XPos="320" YPos="128" Width="160" Height="128" />
+
+</Imageset>

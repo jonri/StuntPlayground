@@ -1,0 +1,305 @@
+material RING_TEX/SOLID/ring.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture ring.png
+			}
+		}
+	}
+}
+
+material CEMENT/SOLID/concrete1.psd
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.269644 0.269644 0.269644 16.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+material CEMENT/SOLID/concrete.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+	}
+}
+
+material KICKER1/SOLID/kicker1.psd
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture kicker1.png
+			}
+		}
+	}
+}
+
+material WOOD/SOLID/wood.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 0.800000 0.800000 0.800000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture wood.png
+			}
+		}
+	}
+}
+
+material RED/SOLID/cone_tex.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			specular 0.500000 0.500000 0.500000 50.000000
+			texture_unit
+			{
+				texture cone_tex.png
+			}
+		}
+	}
+}
+
+material RED/SOLID/barrel.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture barrel.png
+			}
+		}
+	}
+}
+
+material CRATE/SOLID/crate.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 1.000000 1.000000 1.000000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture crate.png
+			}
+		}
+	}
+}
+
+
+material halfpipe/SOLID/halfpipe.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture halfpipe.png
+			}
+		}
+	}
+}
+
+
+material SIMPLE_JUMP/SOLID/TEX/simple_jump1.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture simple_jump1.png
+			}
+		}
+	}
+}
+
+
+material SMALL_JUMP1/SOLID/TEX/small_jump1.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture small_jump1.png
+			}
+		}
+	}
+}
+
+material super_jump/SOLID/super_jump1.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture super_jump1.png
+			}
+		}
+	}
+}
+
+material Dumpster/SOLID/dumpster.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 0.956359 0.956359 0.956359
+			specular 1.000000 1.000000 1.000000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture dumpster.png
+			}
+		}
+	}
+}
+
+
+material CAR_MAIN
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.800000 0.800000 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture simple_car.png
+			}
+		}
+	}
+}
+
+material BIGBOX/SOLID/bigbox.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.000000 0.000000 0.000000
+			diffuse 0.800000 0.800000 0.800000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture bigbox.png
+			}
+		}
+	}
+}
+
+
+material RED/SOLID/garage_stand.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 50.000000
+			emissive 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				texture garage_stand.png
+			}
+		}
+	}
+}
+
+
+
+
+

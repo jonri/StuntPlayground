@@ -1,0 +1,24 @@
+<?xml ?>
+<!--Stunt Playground Arena file-->
+<Arena>
+    <Prop name="Big Box" position="-6.93041 -1.15907 18.5234" rotation="0.00947438 0.117236 0.00248021" />
+    <Prop name="Big Box" position="3.101 -1.15925 18.761" rotation="0.0023755 0.0744302 -0.00272779" />
+    <Prop name="Big Box" position="12.8701 -1.15929 2.11865" rotation="0.0103662 0.0522878 -0.00166118" />
+    <Prop name="Big Box" position="13.1364 -1.15924 18.6439" rotation="0.0092148 0.121967 -0.000129837" />
+    <Prop name="Big Box" position="3.09033 -1.15944 13.2547" rotation="0.0071619 0.123219 0.00126334" />
+    <Prop name="Big Box" position="13.1189 -1.15922 13.1378" rotation="-0.000134577 0.131538 0.00141652" />
+    <Prop name="Big Box" position="13.0538 -1.15901 7.62988" rotation="0.00744346 0.10965 -0.000438729" />
+    <Prop name="Big Box" position="2.8104 -1.15783 2.05829" rotation="-0.0275458 -0.733137 0.00099319" />
+    <Prop name="Big Box" position="-7.01165 -1.15863 7.51041" rotation="0.0218129 0.112407 0.00195293" />
+    <Prop name="Big Box" position="-7.25604 -1.15894 1.99343" rotation="9.69347e-005 0.124927 0.0039866" />
+    <Prop name="Big Box" position="-7.30297 -1.15874 -3.5125" rotation="0.00167243 0.123474 -0.0011445" />
+    <Prop name="Big Box" position="-6.9904 -1.15928 13.0165" rotation="0.00903338 0.128721 0.00201833" />
+    <Prop name="Big Box" position="2.75225 -1.15721 -3.5319" rotation="-0.0191515 0.31334 -0.00322109" />
+    <Prop name="Big Box" position="23.1395 -1.15214 9.74976" rotation="0.00666761 0.16513 -0.00161277" />
+    <Prop name="Big Box" position="12.7938 -1.15687 -3.39122" rotation="-4.74425e-005 0.0602359 0.00115199" />
+    <Prop name="Big Box" position="22.8953 -1.15494 -1.2603" rotation="0.00647833 0.133096 -0.00317647" />
+    <Prop name="Big Box" position="23.1073 -1.15283 4.24461" rotation="0.0183107 0.152722 0.00546121" />
+    <Prop name="Big Box" position="23.1772 -1.15064 15.2709" rotation="-0.000150878 0.334818 0.000196198" />
+    <Prop name="Simple Jump 1" position="-24.0128 -2.91697 5.52265" rotation="-9.38099 -89.9138 -9.50472" />
+    <Prop name="Big Box" position="3.02718 -1.15885 7.74853" rotation="0.00889165 0.128475 0.00625535" />
+</Arena>

@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<!--Rigid Body file, created by Rigid Body Designer-->
+<rigid_body name="Small_Jump1">
+    <mesh filename="small_jump1.mesh" />
+    <properties mass="450" inertia="1356.08 3755.07 2569.21" />
+    <primitive name="hull" shape="convex_hull">
+        <properties position="0 0 0" rotation="0 0 0">
+            <vertex position="5.84509 -0.464819 -1.83974" />
+            <vertex position="4.75744 -0.464819 -2.06884" />
+            <vertex position="-1.04554 0.871452 -2.06884" />
+            <vertex position="5.84509 -0.464819 -1.83974" />
+            <vertex position="-1.92299 -0.464819 -2.85265" />
+            <vertex position="4.75744 -0.464819 -2.06884" />
+            <vertex position="5.84509 -0.464819 -1.83974" />
+            <vertex position="-2.13429 -0.464819 -2.73818" />
+            <vertex position="-1.92299 -0.464819 -2.85265" />
+            <vertex position="5.84509 -0.464819 -1.83974" />
+            <vertex position="5.84509 -0.464819 1.84214" />
+            <vertex position="-2.13429 -0.464819 -2.73818" />
+            <vertex position="5.84509 -0.464819 -1.83974" />
+            <vertex position="-0.977924 1.01229 1.83221" />
+            <vertex position="5.84509 -0.464819 1.84214" />
+            <vertex position="5.84509 -0.464819 -1.83974" />
+            <vertex position="-0.977924 1.01229 -1.8299" />
+            <vertex position="-0.977924 1.01229 1.83221" />
+            <vertex position="5.84509 -0.464819 -1.83974" />
+            <vertex position="-1.04554 0.871452 -2.06884" />
+            <vertex position="-0.977924 1.01229 -1.8299" />
+            <vertex position="-1.04554 0.871452 -2.06884" />
+            <vertex position="-1.2159 0.907487 -1.88928" />
+            <vertex position="-0.977924 1.01229 -1.8299" />
+            <vertex position="-1.04554 0.871452 -2.06884" />
+            <vertex position="-2.13429 -0.464819 -2.73818" />
+            <vertex position="-1.2159 0.907487 -1.88928" />
+            <vertex position="-1.04554 0.871452 -2.06884" />
+            <vertex position="-1.92299 -0.464819 -2.85265" />
+            <vertex position="-2.13429 -0.464819 -2.73818" />
+            <vertex position="-1.04554 0.871452 -2.06884" />
+            <vertex position="4.75744 -0.464819 -2.06884" />
+            <vertex position="-1.92299 -0.464819 -2.85265" />
+            <vertex position="-2.13429 -0.464819 -2.73818" />
+            <vertex position="-2.13429 -0.464819 2.74049" />
+            <vertex position="-1.2159 0.907487 -1.88928" />
+            <vertex position="-2.13429 -0.464819 -2.73818" />
+            <vertex position="5.84509 -0.464819 1.84214" />
+            <vertex position="-2.13429 -0.464819 2.74049" />
+            <vertex position="5.84509 -0.464819 1.84214" />
+            <vertex position="-1.92299 -0.464819 2.85496" />
+            <vertex position="-2.13429 -0.464819 2.74049" />
+            <vertex position="5.84509 -0.464819 1.84214" />
+            <vertex position="4.75744 -0.464819 2.07115" />
+            <vertex position="-1.92299 -0.464819 2.85496" />
+            <vertex position="5.84509 -0.464819 1.84214" />
+            <vertex position="-1.04554 0.871452 2.07115" />
+            <vertex position="4.75744 -0.464819 2.07115" />
+            <vertex position="5.84509 -0.464819 1.84214" />
+            <vertex position="-0.977924 1.01229 1.83221" />
+            <vertex position="-1.04554 0.871452 2.07115" />
+            <vertex position="-0.977924 1.01229 1.83221" />
+            <vertex position="-1.2159 0.907487 1.89167" />
+            <vertex position="-1.04554 0.871452 2.07115" />
+            <vertex position="-0.977924 1.01229 1.83221" />
+            <vertex position="-1.2159 0.907487 -1.88928" />
+            <vertex position="-1.2159 0.907487 1.89167" />
+            <vertex position="-0.977924 1.01229 1.83221" />
+            <vertex position="-0.977924 1.01229 -1.8299" />
+            <vertex position="-1.2159 0.907487 -1.88928" />
+            <vertex position="-1.2159 0.907487 -1.88928" />
+            <vertex position="-2.13429 -0.464819 2.74049" />
+            <vertex position="-1.2159 0.907487 1.89167" />
+            <vertex position="-2.13429 -0.464819 2.74049" />
+            <vertex position="-1.04554 0.871452 2.07115" />
+            <vertex position="-1.2159 0.907487 1.89167" />
+            <vertex position="-2.13429 -0.464819 2.74049" />
+            <vertex position="-1.92299 -0.464819 2.85496" />
+            <vertex position="-1.04554 0.871452 2.07115" />
+            <vertex position="-1.92299 -0.464819 2.85496" />
+            <vertex position="4.75744 -0.464819 2.07115" />
+            <vertex position="-1.04554 0.871452 2.07115" />
+        </properties>
+    </primitive>
+</rigid_body>

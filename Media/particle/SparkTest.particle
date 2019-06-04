@@ -1,0 +1,51 @@
+
+WalaberSparkTest
+{
+	quota	300
+	material	Test/Spark
+	particle_width	0.9
+	particle_height	0.3
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	3.667
+		colour	1 0.989474 0 1
+		colour_range_start	1 0.989474 0 1
+		colour_range_end	1 0.463158 0 1
+		direction	0 1 0
+		emission_rate	20
+		position	0 0 0
+		velocity	2
+		velocity_min	2
+		velocity_max	10
+		time_to_live	0.6
+		time_to_live_min	0.4
+		time_to_live_max	0.8
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	1
+		height	1
+		depth	0.5
+	}
+
+	affector LinearForce
+	{
+		force_vector	0 -9.8 0
+		force_application	add
+	}
+
+	affector ColourFader
+	{
+		red	-1
+		green	-1
+		blue	-1
+		alpha	-0.5
+	}
+}
